@@ -1,21 +1,24 @@
 <%include ../partials/header%>
 	<div id="contact">
 		<h1>Contact</h1>
-		<form id="form">
 			
-				<div>
-					<input type="text" name="firstName" placeholder="First Name">
-				</div>
-				<div>
-					<input type="text" name="lastName" placeholder="Last Name">
-				</div>
-				<div>
-					<textarea placeholder="Comment"></textarea>
-				</div>
-				
-				
-				<button>Send</button>
-			
+		<form>
+  			<div class="form-group-lg" >
+    			<label for="exampleInputEmail1">Email address</label>
+    			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+
+    			<label for = "firstName">First Name</label>
+    			<input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+
+    			<label for="lastName">Last Name</label>
+    			<input type="text" id="LastName" placeholder="Enter Last Name" class="form-control">
+    			<label for= "commentBox">Comment</label>
+    			<textarea class="form-control" placeholder="Enter comment"></textarea>
+
+    			<button style = "margin-top: 20px; background: #edc895; border: none;"type="submit" class="btn btn-primary">Submit</button>
+ 			</div>
+  			
 		</form>
+	
 	</div>
 <%include ../partials/footer%>
