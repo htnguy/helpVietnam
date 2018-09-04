@@ -16,9 +16,7 @@ app.get("/contact", function(req,res){
 app.get("/founder", function(req,res){
 	res.render("index/founder");
 })
-app.get("/help", function(req,res){
-	res.render("index/help");
-});
+
 app.get("/learnmore", function(req,res){
 	res.render("index/learnmore");
 });

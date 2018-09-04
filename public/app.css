@@ -44,7 +44,11 @@ div#topBar{
 	font-weight: 800;
 	font-size: 50px;
 	margin-left: 30px;
+	color: #e8a140;
 
+}
+.breakStyle{
+	border: solid 2px orange;
 }
 .logoAnimation{
 	animation: fadeInAndBounce 1s linear .1s 1 forwards;
@@ -104,7 +108,7 @@ ul#tabs li{
 }
 
 ul#tabs li a{
-	color: black;
+	color: #e8a953;
 	display: block;
 }
 
@@ -135,7 +139,7 @@ ul#tabs li:hover{
 		opacity: .7;
 	}
 	100%{
-		width: 120%;
+		width: 116%;
 		box-shadow: -12px 12px 12px rgb(190,210,220);
 		background: rgb(255,184,160);
 		opacity: 1;
@@ -159,7 +163,6 @@ div#about{
 }
 #about h1{
 	font-size: 2.5vw;
-	transition: slideRight 2s ease 1s 1 forwards;
 	text-align: center;
 
 }
@@ -173,7 +176,7 @@ div#about{
 	width: 80%;
 }
 #contact form{
-	width: 30%;
+	width: 50%;
 	margin-left: 25%;
 	padding: 20px;
 	border: outset #c5d8f7 2px;
@@ -187,10 +190,6 @@ form label, input{
 	margin-top: 20px;
 }
 
-#contact h1{
-	transition: slideRight 2s ease 1s 1 forwards;
-}
-
 			/*founder styles*/
 #founder{
 	width: 80%;
@@ -201,8 +200,9 @@ form label, input{
 	font-size: 2.5vw;
 	padding-right: 50px;
 }
-#founder p{
+#founder p, div{
 	width: 90%;
+	padding-left: 50px;
 	text-justify: inter-word;
 }
 
@@ -211,6 +211,17 @@ form label, input{
 	font-size: 1.5vw;
 }
 
+	/*learnmore styles*/
+#learnMore{
+	font-size: 2vw;
+}
+#learnMore h1{
+	font-size: 2.5vw;
+	text-align: center;
+}
+#author{
+	margin-left: 500px;
+}
 
 
 
