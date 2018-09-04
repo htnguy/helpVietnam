@@ -49,6 +49,7 @@ div#topBar{
 }
 .breakStyle{
 	border: solid 2px orange;
+	width: 92%;
 }
 .logoAnimation{
 	animation: fadeInAndBounce 1s linear .1s 1 forwards;
@@ -221,6 +222,15 @@ form label, input{
 }
 #author{
 	margin-left: 500px;
+}
+ 
+ /*footer styles*/
+#footer{
+	height: 100px;
+}
+#footer a{
+	margin-top: 10px;
+	margin-left: 5px;
 }
 
 
